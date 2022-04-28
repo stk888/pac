@@ -4,5 +4,5 @@ function FindProxyForURL(url, host) {
   else if (localHostOrDomainIs(host, "www.urbtix.hk"))
     return DIRECT;
   else
-    return "PROXY localhost:8124";
+    return "PROXY 192.168.31.237:8124";
 }
